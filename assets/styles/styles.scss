@@ -1,0 +1,25 @@
+@use './components' as *;
+@use './header' as *;
+@use './footer' as *;
+@use './backpanel' as *;
+@use './intro' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.footer-content {
+    min-height: 100%;
+    margin: 0 auto -30.875rem;
+  }
+
+body {
+    background:#f5f1ec;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.pa-ct-move-up {
+    margin-top: -15rem;
+}

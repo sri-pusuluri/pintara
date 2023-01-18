@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+.btn_round {
+  background: #fff;
+  border: 0.25rem solid rgba(255, 255, 255, 0.24);
+  border-radius: 2.5rem;
+  height: 3rem;
+  width: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  outline: 0.25rem solid rgba(255, 255, 255, 0.2);
+}
+.btn_round span i {
+  display: none;
+}
+
+.primary_btn {
+  padding: 1rem 2.5rem;
+  background: #FFFFFF;
+  border-radius: 2.5rem;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #E85860;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn_home {
+  margin-left: 2rem;
+}
+
+.pa-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  grid-gap: 2rem;
+}
+
+.pa-card {
+  height: 170px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25), inset -4px -4px 16px #C7C4ED;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25), inset -4px -4px 16px #C7C4ED;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+.pa-card:hover {
+  background: #f5f1ec;
+}
+.pa-card .icon {
+  width: 7.75rem;
+  height: 5rem;
+}
+.pa-card h4 {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #548EF7;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.pa-header {
+  width: 100%;
+  height: 22.5rem;
+  background-image: url(./../img/header-bg.svg); /* The image used */
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-container {
+  width: 100%;
+  height: 31.375rem;
+  background-image: url(./../img/footer-bg.svg); /* The image used */
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pa-backbar {
+  background: #F8B950;
+  min-height: 5rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.pa-backbar .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pa-backbar__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.intro {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./../img/bg.svg); /* The image used */
+  background-color: #654b99; /* Used if the image is unavailable */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro::after {
+  content: ".";
+  background-image: url(./../img/footer.svg);
+  background-color: transparent;
+  width: 100%;
+  height: 470px;
+  position: absolute;
+  z-index: 5;
+  bottom: -155px;
+  left: 0;
+  background-repeat: no-repeat;
+  right: 0;
+}
+.intro .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  height: 100vh;
+}
+.intro__content {
+  width: 20rem;
+}
+.intro__content .logo {
+  width: 13.75rem;
+}
+.intro__content p {
+  font-size: 0.875rem;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.footer-content {
+  min-height: 100%;
+  margin: 0 auto -30.875rem;
+}
+
+body {
+  background: #f5f1ec;
+  font-family: "MuseoModerno", cursive;
+}
+
+.pa-ct-move-up {
+  margin-top: -15rem;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,72 @@
+// buttons
+
+.btn_round {
+    background: #fff;
+    border: 0.25rem solid rgba(255, 255, 255, 0.24);
+    border-radius: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: 0.25rem solid rgb(255 255 255 / 20%);
+    span i {
+        display: none;
+    }
+}
+.primary_btn {
+padding: 1rem 2.5rem;
+background: #FFFFFF;
+border-radius: 2.5rem;
+border: none;
+font-weight: bold;
+font-size: 1rem;
+color: #E85860;
+text-transform: capitalize;
+cursor: pointer;
+}
+.btn_home {
+    margin-left: 2rem;
+}
+// card grid
+.pa-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+    grid-gap: 2rem;
+}
+// card
+.pa-card {
+// width: 288px;
+height: 170px;
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25), inset -4px -4px 16px #C7C4ED;
+border-radius: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+cursor: pointer;
+&:hover {
+    background: #f5f1ec;
+}
+.icon {
+    width: 7.75rem;
+    height: 5rem;
+}
+h4 {
+    font-size: 20px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.1em;
+color: #548EF7;
+}
+}
+// fonts
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
